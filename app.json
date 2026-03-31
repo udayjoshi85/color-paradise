@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Color Paradise",
+    "slug": "color-paradise",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "colorparadise",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "owner": "adlely-apps",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.adlelyapps.colorparadise"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#4A148C",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.adlelyapps.colorparadise"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "splash": {
+      "backgroundColor": "#4A148C",
+      "resizeMode": "contain"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#4A148C"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "developer": "Adlely Apps",
+      "contact": "adlelyapps@gmail.com"
+    }
+  }
+}
